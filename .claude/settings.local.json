@@ -21,7 +21,9 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git branch:*)",
-      "Bash(git remote:*)"
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(git -C /Users/demirmac/Desktop/celpa-orman-web push https://anoktademir@github.com/anoktademir/celpaormanurunleri.git main)"
     ]
   }
 }
