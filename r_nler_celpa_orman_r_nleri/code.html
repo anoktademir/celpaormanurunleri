@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ürünler | Celpa Orman Ürünleri</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-secondary": "#ffffff",
+                    "on-surface": "#1b1c1c",
+                    "primary-fixed": "#ffdea9",
+                    "on-secondary-container": "#7a5747",
+                    "on-secondary-fixed-variant": "#5f3f30",
+                    "error": "#ba1a1a",
+                    "background": "#fcf9f8",
+                    "surface-container-highest": "#e4e2e1",
+                    "primary-container": "#c68d00",
+                    "surface-container": "#f0eded",
+                    "inverse-primary": "#fbbc3d",
+                    "inverse-on-surface": "#f3f0f0",
+                    "secondary-fixed-dim": "#eabda9",
+                    "tertiary-fixed": "#e4e2e1",
+                    "tertiary-container": "#989797",
+                    "surface-container-lowest": "#ffffff",
+                    "inverse-surface": "#303030",
+                    "surface-container-high": "#eae7e7",
+                    "on-primary-fixed": "#271900",
+                    "surface-dim": "#dcd9d9",
+                    "outline": "#827562",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "tertiary": "#5f5e5e",
+                    "on-tertiary": "#ffffff",
+                    "secondary-fixed": "#ffdbcc",
+                    "on-tertiary-container": "#303030",
+                    "on-error-container": "#93000a",
+                    "surface-tint": "#7d5800",
+                    "secondary-container": "#ffd0bb",
+                    "on-tertiary-fixed-variant": "#474747",
+                    "primary-fixed-dim": "#fbbc3d",
+                    "on-secondary-fixed": "#2d1509",
+                    "on-error": "#ffffff",
+                    "on-primary-container": "#412c00",
+                    "surface-container-low": "#f6f3f2",
+                    "surface-variant": "#e4e2e1",
+                    "on-surface-variant": "#504534",
+                    "tertiary-fixed-dim": "#c8c6c6",
+                    "secondary": "#795746",
+                    "primary": "#7d5800",
+                    "on-background": "#1b1c1c",
+                    "surface": "#fcf9f8",
+                    "error-container": "#ffdad6",
+                    "surface-bright": "#fcf9f8",
+                    "outline-variant": "#d4c4ae",
+                    "on-primary": "#ffffff",
+                    "on-primary-fixed-variant": "#5f4100"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .bg-mesh {
+            background-color: #fcf9f8;
+            background-image: radial-gradient(at 0% 0%, rgba(125, 88, 0, 0.05) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(121, 87, 70, 0.05) 0px, transparent 50%);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- TopAppBar Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-xl shadow-black/5">
+<div class="flex justify-between items-center max-w-screen-2xl mx-auto px-12 h-20">
+<a class="text-2xl font-black tracking-tighter text-amber-800" href="#">Celpa Orman Ürünleri</a>
+<div class="hidden md:flex items-center gap-8 font-sans text-sm tracking-tight">
+<a class="text-slate-600 hover:text-amber-700 transition-all duration-300" href="#">Ana Sayfa</a>
+<a class="text-slate-600 hover:text-amber-700 transition-all duration-300" href="#">Hakkımızda</a>
+<a class="text-amber-900 border-b-2 border-amber-600 pb-1" href="#">Ürünler</a>
+<a class="text-slate-600 hover:text-amber-700 transition-all duration-300" href="#">İletişim</a>
+</div>
+<a class="bg-primary text-on-primary px-6 py-2.5 rounded-lg text-sm font-semibold tracking-wide hover:bg-primary-container active:translate-y-px transition-all duration-300" href="tel:+905355269926">
+                Teklif Al
+            </a>
+</div>
+</nav>
+<main class="pt-20 bg-mesh min-h-screen">
+<!-- Hero Section -->
+<header class="relative py-24 px-12 overflow-hidden">
+<div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-end">
+<div class="md:w-2/3 z-10">
+<span class="inline-block px-3 py-1 bg-secondary-container text-on-secondary-container text-[10px] font-bold tracking-[0.2em] uppercase mb-6 rounded-sm">
+                        Endüstriyel Çözümler
+                    </span>
+<h1 class="text-6xl md:text-8xl font-black text-on-surface leading-[0.9] tracking-tighter mb-8">
+                        Ürün <span class="text-primary">Kataloğu</span>
+</h1>
+<p class="text-lg text-on-surface-variant max-w-xl leading-relaxed">
+                        Sürdürülebilir orman kaynaklarından elde edilen, yüksek hassasiyetli işleme teknikleriyle hazırlanan endüstriyel ahşap çözümlerimiz.
+                    </p>
+</div>
+<div class="md:w-1/3 text-right hidden md:block">
+<div class="inline-flex flex-col items-end">
+<span class="text-4xl font-bold text-outline-variant">2024</span>
+<span class="text-xs font-bold text-outline tracking-widest uppercase">Koleksiyonu</span>
+</div>
+</div>
+</div>
+</header>
+<!-- Product Grid - Bento Style -->
+<section class="max-w-7xl mx-auto px-8 pb-32">
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- 1. Heavy Duty Packaging -->
+<div class="md:col-span-8 group relative bg-surface-container-low overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-primary/10">
+<div class="aspect-[16/9] overflow-hidden">
+<img class="w-full h-full object-cover grayscale-[0.2] group-hover:scale-105 transition-transform duration-700" data-alt="large industrial wooden crates for heavy machinery export shipping in a clean warehouse setting with professional lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBW-YQmXQ08EJg_yMIumdP0kdyClT2Z9n2BTIoWX9CpNmYc09e0qPr9xfgzMNrM_8zp7BK-uDCTgYQtHT-9esGLINFbtlaa-xydGMa2lDAeTsUj3XRmI6anr8cQaOLehjENRu6qwQ5AIS4R-5fJyPBt9N087u062eB46q3KYp8h5XtQlWnqQf7JqIadgnlqYkWAwhvL9SAKEsPylreoo3B9-yja-rKgRjjaT5T3kVsMsNj5olW7eXd8g3TP8b8RWVqqY44orxojlfya"/>
+</div>
+<div class="p-8 flex flex-col md:flex-row justify-between items-start md:items-end gap-6">
+<div class="max-w-xl">
+<h2 class="text-3xl font-bold text-on-surface mb-3 tracking-tight">Ağır Hizmet Ambalajı</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                                Ağır sanayi ürünlerinizin uluslararası sevkiyatı için ISPM-15 standartlarında üretilen, yüksek mukavemetli ahşap sandık ve ambalaj çözümleri. Her türlü tonaj için mühendislik hesaplamalı tasarım.
+                            </p>
+<div class="flex gap-4">
+<span class="bg-surface-container-high px-3 py-1 text-[10px] font-bold text-on-surface-variant rounded">ISPM-15</span>
+<span class="bg-surface-container-high px-3 py-1 text-[10px] font-bold text-on-surface-variant rounded">EXPORT READY</span>
+</div>
+</div>
+<a class="whitespace-nowrap bg-primary text-on-primary px-8 py-4 rounded font-bold text-sm tracking-widest uppercase hover:bg-primary-container transition-colors shadow-lg shadow-primary/20" href="tel:+905355269926">
+                            Teklif Al
+                        </a>
+</div>
+</div>
+<!-- 2. Custom Pallets -->
+<div class="md:col-span-4 bg-surface-container-low group overflow-hidden transition-all duration-500">
+<div class="aspect-square overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="stacks of new high quality wooden pallets in a professional lumber yard at golden hour with warm sunlight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBuzlAQqUvP4u9j-U7GmaNBTz4sltTHfv5D7oW2JEOESjR5_zLlMmrJ-Z8EnDDTD2fbshaDLUSdp2dpgU2tqNoF8nE2sTUDW1R1TdFZc-4UEySxLFpF71b9Uitz3xlqERPxqRttsM0-BbrlSN1E3gCS--hkcrVCmo2whRm4HCGNCMtBoA5LnhG_p_kar4LG5RR97j6qnSQ8LN8rg3pYEztnxWbrS3hy9kyVtCHjIQyVCFI4ouIWlgGnbwAwS1e8erDLX6-WKwa3PXku"/>
+</div>
+<div class="p-8">
+<h2 class="text-2xl font-bold text-on-surface mb-3 tracking-tight">Özel Ölçü Palet</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">
+                            Standart dışı yükleriniz için ihtiyaca özel boyutlandırılmış, dayanıklılık testlerinden geçmiş endüstriyel palet üretimi.
+                        </p>
+<a class="inline-flex items-center gap-2 text-primary font-bold text-xs tracking-widest uppercase group-hover:translate-x-2 transition-transform" href="tel:+905355269926">
+                            Detaylı Bilgi <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- 3. Outdoor Decking -->
+<div class="md:col-span-4 bg-surface-container-low group overflow-hidden transition-all duration-500">
+<div class="aspect-square overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="luxury modern outdoor wooden deck with teak wood texture during sunset near a pool and garden" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDBVa58z-crFKDP_yjUd8C18YNJdZe4zU8htLNRmFX8zO_gWu180bSfDWMozeU0FOTCyuYDngXvC0xwB_PgvZD1hDoBL-GppVlI1JkE0UA63LD9h5G4wO3smrrxpTEKHkoERJykTBwfS1xKuhuS_B0gTjmXoS6nlnZK3zVGHH71898JWSlKqcuUibOtteZ2i2JyFZOfy4j28rpKSCMDfYp91_OaeDhVO5BUd2Jg1k0dDi1fGFNm72NjFfYjy5yd-MdhGZCT0UFB6X9x"/>
+</div>
+<div class="p-8">
+<h2 class="text-2xl font-bold text-on-surface mb-3 tracking-tight">Dış Mekan Parkesi</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-8">
+                            İroko, Teak ve Dişbudak gibi dayanıklı ağaç türlerinden, dış mekan koşullarına tam uyumlu lüks zemin çözümleri.
+                        </p>
+<a class="inline-flex items-center gap-2 text-primary font-bold text-xs tracking-widest uppercase group-hover:translate-x-2 transition-transform" href="tel:+905355269926">
+                            Teklif Al <span class="material-symbols-outlined text-sm">call</span>
+</a>
+</div>
+</div>
+<!-- 4. Treated Timber -->
+<div class="md:col-span-8 group relative bg-surface-container-low overflow-hidden transition-all duration-500">
+<div class="grid md:grid-cols-2 h-full">
+<div class="aspect-video md:aspect-auto overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="neatly stacked timber wood planks in a sawmill highlighting wood grain and industrial precision" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIlmIwoAl0hEQin2DGJ-ZqOVwBDbIJsyNeyFQaPwrYEqIXy1-GFsKP5nQQERv7kh2FINqf-SsRptTMxkC1qN46n1MUrx25xr4M-Es5lyN7-vvT3w0wuJRh8IoMVjnWwS5EPTeTTxX7O8gnHX72BG8qmopYSn9Adl-DoNjHFyaq78nteAka2u9x8B5MXOlFFfbXbffKeJMVmjkCy8cj8x6mp6erp4jq1wIj3eQQuGjYHSgLrHceD1gFRAHdmHsFnFrJ97fnB6rqeLEJ"/>
+</div>
+<div class="p-10 flex flex-col justify-center">
+<h2 class="text-3xl font-bold text-on-surface mb-4 tracking-tight">Emprenye &amp; Kereste</h2>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6">
+                                Vakum-basınç yöntemiyle uygulanan Tanalith-E emprenye işlemi sayesinde çürüme ve haşerelere karşı 10+ yıl garantili inşaatlık kereste ve yapısal ahşap ürünleri.
+                            </p>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-3 text-xs font-semibold text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                    Fırınlanmış (KD) Kereste
+                                </li>
+<li class="flex items-center gap-3 text-xs font-semibold text-on-surface-variant">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+                                    Sınıflandırılmış İnşaatlık Çam
+                                </li>
+</ul>
+<a class="w-full text-center bg-surface-container-high text-on-surface border border-outline-variant/20 py-4 rounded font-bold text-sm tracking-widest uppercase hover:bg-primary hover:text-on-primary transition-all duration-300" href="tel:+905355269926">
+                                Şimdi Ara
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="max-w-7xl mx-auto px-8 mb-32">
+<div class="bg-slate-950 p-16 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-12 rounded-xl">
+<div class="absolute inset-0 opacity-20 pointer-events-none">
+<div class="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-amber-900/30 via-transparent to-transparent"></div>
+</div>
+<div class="relative z-10">
+<h3 class="text-white text-4xl font-bold mb-4 tracking-tight">İhtiyacınıza özel çözüm mü arıyorsunuz?</h3>
+<p class="text-slate-400 text-lg">Uzman ekibimiz projelerinize değer katmak için hazır.</p>
+</div>
+<div class="relative z-10 flex flex-col sm:flex-row gap-6">
+<a class="flex items-center justify-center gap-3 bg-primary text-on-primary px-10 py-5 rounded font-black text-sm tracking-widest uppercase hover:scale-95 transition-all duration-300" href="tel:+905355269926">
+<span class="material-symbols-outlined">call</span>
+                        Hemen Teklif Al
+                    </a>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-950 w-full pt-24 pb-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto px-8">
+<div class="md:col-span-1">
+<div class="text-xl font-bold text-white mb-6">Celpa Orman Ürünleri</div>
+<p class="text-slate-500 text-xs leading-loose tracking-wide">
+                    Sektördeki 20 yıllık tecrübemizle, ağacı sanat ve mühendislikle birleştiriyoruz. Kalite, dayanıklılık ve sürdürülebilirlik ilkemizdir.
+                </p>
+</div>
+<div>
+<h4 class="text-amber-500 font-sans text-xs uppercase tracking-widest mb-6">Hızlı Linkler</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">Kurumsal</a></li>
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">Sürdürülebilirlik</a></li>
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">KVKK</a></li>
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">İletişim</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-amber-500 font-sans text-xs uppercase tracking-widest mb-6">Ürün Grupları</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">Lojistik Ambalaj</a></li>
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">İnşaatlık Kereste</a></li>
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">Dekoratif Ahşap</a></li>
+<li><a class="text-slate-500 hover:text-amber-400 transition-colors text-xs uppercase tracking-widest" href="#">Palet Sistemleri</a></li>
+</ul>
+</div>
+<div>
+<h4 class="text-amber-500 font-sans text-xs uppercase tracking-widest mb-6">İletişim</h4>
+<div class="space-y-4">
+<p class="text-slate-500 text-xs tracking-wider">İvedik OSB, Ankara/Türkiye</p>
+<p class="text-white text-xs font-bold tracking-widest">+90 535 526 9926</p>
+<p class="text-slate-500 text-xs tracking-wider">info@celpaorman.com</p>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 mt-20 pt-8 border-t border-slate-900 flex justify-between items-center">
+<p class="text-slate-600 font-sans text-[10px] uppercase tracking-[0.2em]">© 2024 Celpa Orman Ürünleri. Tüm Hakları Saklıdır.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-slate-600 text-lg hover:text-amber-500 cursor-pointer transition-colors">language</span>
+<span class="material-symbols-outlined text-slate-600 text-lg hover:text-amber-500 cursor-pointer transition-colors">share</span>
+</div>
+</div>
+</footer>
+</body></html>

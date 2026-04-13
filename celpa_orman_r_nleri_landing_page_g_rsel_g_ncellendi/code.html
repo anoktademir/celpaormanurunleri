@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="tr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Celpa Orman Ürünleri | Endüstriyel Ahşap Çözümleri</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#504534",
+                    "outline": "#827562",
+                    "tertiary-fixed-dim": "#c8c6c6",
+                    "primary-container": "#c68d00",
+                    "on-secondary-container": "#7a5747",
+                    "surface-tint": "#7d5800",
+                    "inverse-primary": "#fbbc3d",
+                    "primary": "#7d5800",
+                    "primary-fixed": "#ffdea9",
+                    "error": "#ba1a1a",
+                    "primary-fixed-dim": "#fbbc3d",
+                    "secondary-fixed": "#ffdbcc",
+                    "surface-container-lowest": "#ffffff",
+                    "outline-variant": "#d4c4ae",
+                    "on-secondary": "#ffffff",
+                    "surface-bright": "#fcf9f8",
+                    "on-secondary-fixed-variant": "#5f3f30",
+                    "error-container": "#ffdad6",
+                    "on-error": "#ffffff",
+                    "on-primary-fixed-variant": "#5f4100",
+                    "surface": "#fcf9f8",
+                    "secondary-fixed-dim": "#eabda9",
+                    "surface-container-high": "#eae7e7",
+                    "on-error-container": "#93000a",
+                    "surface-container-low": "#f6f3f2",
+                    "on-tertiary-fixed": "#1b1c1c",
+                    "surface-container": "#f0eded",
+                    "surface-dim": "#dcd9d9",
+                    "tertiary": "#5f5e5e",
+                    "secondary-container": "#ffd0bb",
+                    "surface-variant": "#e4e2e1",
+                    "on-primary": "#ffffff",
+                    "surface-container-highest": "#e4e2e1",
+                    "tertiary-container": "#989797",
+                    "inverse-on-surface": "#f3f0f0",
+                    "background": "#fcf9f8",
+                    "inverse-surface": "#303030",
+                    "on-tertiary": "#ffffff",
+                    "on-primary-container": "#412c00",
+                    "on-surface": "#1b1c1c",
+                    "on-primary-fixed": "#271900",
+                    "tertiary-fixed": "#e4e2e1",
+                    "on-tertiary-container": "#303030",
+                    "on-tertiary-fixed-variant": "#474747",
+                    "on-background": "#1b1c1c",
+                    "secondary": "#795746",
+                    "on-secondary-fixed": "#2d1509"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Inter"],
+                    "body": ["Inter"],
+                    "label": ["Inter"]
+            },
+            "animation": {
+                "scroll": "scroll 40s linear infinite",
+            },
+            "keyframes": {
+                "scroll": {
+                    "0%": { transform: "translateX(0)" },
+                    "100%": { transform: "translateX(-50%)" },
+                }
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Inter', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .tonal-shift {
+            background: linear-gradient(180deg, rgba(252, 249, 248, 0.9) 0%, rgba(252, 249, 248, 0.7) 100%);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary-fixed-dim selection:text-on-primary-fixed">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl shadow-xl shadow-black/5 no-line-boundary">
+<div class="flex justify-between items-center max-w-screen-2xl mx-auto px-12 h-20">
+<a class="text-2xl font-black tracking-tighter text-amber-800" href="#">Celpa Orman Ürünleri</a>
+<div class="hidden md:flex items-center gap-8">
+<a class="font-sans text-sm tracking-tight text-amber-900 border-b-2 border-amber-600 pb-1" href="#">Ana Sayfa</a>
+<a class="font-sans text-sm tracking-tight text-slate-600 hover:text-amber-700 transition-all duration-300" href="#about">Hakkımızda</a>
+<a class="font-sans text-sm tracking-tight text-slate-600 hover:text-amber-700 transition-all duration-300" href="#products">Ürünler</a>
+<a class="font-sans text-sm tracking-tight text-slate-600 hover:text-amber-700 transition-all duration-300" href="#contact">İletişim</a>
+</div>
+<div class="flex items-center gap-4">
+<a class="bg-primary text-on-primary px-6 py-2.5 rounded-lg font-medium text-sm hover:bg-primary-fixed-dim transition-all active:translate-y-px inline-block" href="tel:+905355269926">
+                Teklif Al
+            </a>
+</div>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative h-screen flex items-center overflow-hidden bg-surface">
+<div class="absolute inset-0 z-0">
+<img alt="Celpa Fabrika" class="w-full h-full object-cover" data-alt="cinematic wide angle shot of a clean, organized large-scale industrial timber processing factory with warm sunbeams hitting stacks of lumber" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3lvC87BQZ-irbvCpUz96H3P2WzFny9glwO5PdTbj-osOJR68EttPviPfHoVOztx8zuuVsQp26nnyLzBEjoy6PsmKSgP_8Visn3wP1tWiWo8RSd9SByZE7Iko5KIVZqTS6anESYY3ZHGxuFS50mDv9H0fZ_Ql-d9D4r0_AO-7TLriL_EVyBTjWi2_uIZHxrfVFrylrkrZGSf7slfyLA6a4It2I5W_N0UTZ_KkRlV1Ur1HDsncqMceWOzxSUADgcLjxYxoeV1mQxJJN"/>
+<div class="absolute inset-0 bg-gradient-to-r from-black/80 via-black/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-7xl mx-auto px-8 w-full">
+<div class="max-w-2xl space-y-8">
+<span class="inline-block px-4 py-1.5 bg-primary/20 backdrop-blur-md text-primary-fixed font-bold text-xs uppercase tracking-[0.2em] rounded">Endüstriyel Mükemmeliyet</span>
+<h1 class="text-5xl md:text-7xl font-black text-white leading-[1.1] tracking-tight">
+                    Endüstriyel ve Özel Ahşap Çözümlerinde <span class="text-primary-fixed-dim">Güvenilir Üretim.</span>
+</h1>
+<p class="text-lg text-slate-200 leading-relaxed font-light">
+                    İzmir Bornova'da 5000 m² entegre tesisimizde, uluslararası ISPM-15 ve HT (Isıl İşlem) standartlarında ahşap ambalaj ve palet üretimi yapıyoruz.
+                </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<a class="bg-primary text-on-primary px-8 py-4 rounded-lg font-bold tracking-wide hover:bg-primary-fixed-dim transition-all flex items-center gap-2" href="#products">
+                        Ürünlerimizi İnceleyin
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+<a class="bg-white/10 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-lg font-bold tracking-wide hover:bg-white/20 transition-all flex items-center gap-2" href="tel:02324797557">
+                        Bizi Arayın
+                        <span class="material-symbols-outlined text-sm">call</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- About Us -->
+<section class="py-32 bg-surface" id="about">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary-container/10 rounded-xl blur-2xl transition duration-1000 group-hover:duration-200"></div>
+<img alt="Üretim Tesisi" class="relative rounded-lg shadow-2xl object-cover aspect-video lg:aspect-square w-full" data-alt="A wide-angle, cinematic, high-resolution photograph of a massive, modern timber and wooden packaging facility (5000m²). The scene shows a clean, organized, and busy industrial floor with high-quality wood stacks and professional machinery under soft, natural industrial lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAA5JvtP4wwgAhK7xU4HDwx-5wt_hT-BHYZQZyYzGA8lD12cdm6quy_MV0Ywj2k9yndnF_NPhsQqy5N_06VE20e5U7h3Eoxsq3I0LwHX19UDHFHrPXnXxgbrxGEzUaoo2GdGJgUj1C7_lxgU_sxx94U2B6plqrRFCA-donqqq4mhbdNdX4NMyNV1OBSnhbbj1x8__fOCVcT2-mQSOOioSXPYGGkHnZGEkiWZj8xzDv33JgxmmemcipdIrgmds1svsgshoDNNx-Th7UO"/>
+<div class="absolute -bottom-8 -right-8 bg-surface-container-lowest p-8 shadow-xl rounded-lg hidden md:block">
+<p class="text-4xl font-black text-primary">5000+</p>
+<p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mt-1">m² Üretim Alanı</p>
+</div>
+</div>
+<div class="space-y-8">
+<div class="space-y-4">
+<h2 class="text-xs font-bold text-primary uppercase tracking-[0.3em]">Hakkımızda</h2>
+<h3 class="text-4xl font-extrabold tracking-tight text-on-surface">Modern Tesislerde Kusursuz İşçilik</h3>
+</div>
+<div class="space-y-6 text-on-surface-variant leading-relaxed text-lg">
+<p>
+                            Celpa Orman Ürünleri olarak, İzmir Bornova'daki modern entegre tesisimizde endüstriyel ahşap sektörüne yön veriyoruz. 
+                            5000 m²'lik üretim alanımızda, son teknoloji ekipmanlarımızla hız, kapasite ve kaliteyi bir araya getiriyoruz.
+                        </p>
+<p>
+                            ISPM-15 standartlarındaki üretim kabiliyetimiz ve HT (Isıl İşlem) yetki belgemizle, ağır sanayiden lojistik sektörüne kadar geniş bir yelpazede stratejik çözüm ortağıyız.
+                        </p>
+</div>
+<div class="grid grid-cols-2 gap-8 pt-6">
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">verified</span>
+<div>
+<p class="font-bold text-on-surface">Kalite Standartları</p>
+<p class="text-sm text-on-surface-variant">ISPM-15 &amp; ISO 9001:2015</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary text-3xl">speed</span>
+<div>
+<p class="font-bold text-on-surface">Hızlı Teslimat</p>
+<p class="text-sm text-on-surface-variant">Yüksek Üretim Kapasitesi</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Sertifikalar Slider -->
+<section class="py-16 bg-surface-container-low border-y border-outline-variant/10 overflow-hidden">
+<div class="max-w-7xl mx-auto px-8 mb-12">
+<div class="text-center">
+<h2 class="text-xs font-bold text-primary uppercase tracking-[0.3em]">Güven ve Kalite</h2>
+<h3 class="text-3xl font-extrabold tracking-tight text-on-surface mt-2">Sertifikalarımız ve Standartlarımız</h3>
+</div>
+</div>
+<div class="relative flex overflow-x-hidden">
+<div class="flex animate-scroll whitespace-nowrap gap-16 items-center py-4">
+<!-- ISPM 15 -->
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">inventory_2</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">ISPM 15 Standardı</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Uluslararası Ambalaj</p>
+</div>
+</div>
+<!-- HT Yetki -->
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">thermostat</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">HT Yetki Belgesi</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Isıl İşlem Yetkisi</p>
+</div>
+</div>
+<!-- ISO 9001 -->
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">workspace_premium</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">ISO 9001:2015</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Kalite Yönetimi</p>
+</div>
+</div>
+<!-- Kapasite Raporu -->
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">factory</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">Kapasite Raporu</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Sanayi Onaylı Üretim</p>
+</div>
+</div>
+<!-- Duplicate for loop -->
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">inventory_2</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">ISPM 15 Standardı</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Uluslararası Ambalaj</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">thermostat</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">HT Yetki Belgesi</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Isıl İşlem Yetkisi</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">workspace_premium</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">ISO 9001:2015</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Kalite Yönetimi</p>
+</div>
+</div>
+<div class="flex items-center gap-4 bg-white px-8 py-6 rounded-xl shadow-sm min-w-[300px]">
+<span class="material-symbols-outlined text-primary text-4xl">factory</span>
+<div>
+<p class="font-bold text-on-surface leading-tight">Kapasite Raporu</p>
+<p class="text-xs text-on-surface-variant uppercase tracking-wider">Sanayi Onaylı Üretim</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="py-32 bg-surface-container-low" id="products">
+<div class="max-w-7xl mx-auto px-8">
+<div class="text-center max-w-2xl mx-auto mb-20 space-y-4">
+<h2 class="text-xs font-bold text-primary uppercase tracking-[0.3em]">Ürün ve Hizmetler</h2>
+<h3 class="text-4xl font-extrabold tracking-tight text-on-surface">Endüstriyel Çözümler</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Service 1 -->
+<div class="bg-surface-container-lowest group overflow-hidden transition-all duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="Ağır Hizmet Ambalajı" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="sturdy industrial wooden machinery shipping crate made of thick plywood and reinforced timber beams in a warehouse" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7y9Ji8Pqsv0peLTSVcOwbsarsr9ZoqPEx9EggINpuCtx5eTZWJYgngUcWUX35Jy2y3cdesiNsBq2lyAIoPddrzjVXg5a3KxR4AUK53SjifXA-QIq27M3V6EAch9gbxv8U1Ucmb1se1qE435o0e6-AoTwHRf8P2LI7Iwzqq4PnfOsLIodRyxTZgoslFcT5a8GzKj0hgtg9x0znUb7GNd8DDPOW8egUPGY7uI9QX6zMgnFtWyZlTtIrxOSOctfYh-yegPt0xl2P1UOD"/>
+</div>
+<div class="p-8 space-y-4">
+<h4 class="text-xl font-bold text-on-surface">Ağır Hizmet Ambalajı</h4>
+<p class="text-sm text-on-surface-variant line-clamp-2">Hassas ve ağır endüstriyel yükleriniz için özel tasarım ahşap sandık çözümleri.</p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary hover:text-amber-600 transition-colors" href="#">
+                            Detaylı Bilgi
+                            <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="bg-surface-container-lowest group overflow-hidden transition-all duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="Özel Ölçü Palet" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A high-resolution, cinematic photograph of a clean, brand new, precisely constructed wooden pallet with an ISPM-15 heat treatment stamp in a clean factory setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWXegQpDyqtPQRlHXRXTgmvL6r9Mobm6KUToLYDWgiGZaYTbE8qoc7iyJmCELnk-ZpT3V25prqrGz1gjIXsjNgxplZwZkM68epuQEVD8OQ52NmyFUIhVnXSZVWpu8QyY0xHlyq-DBBaDExQcn274A69QgpZUXmCEkfrEKdDOFyn6fbTG67QIj1B701opZiaE9SdYaWCaoKuRm-OHyKrLvlPPlNYsyxqUyEeoLNm_grpm2hYiWRub-CpjmwxTDmtCAGPBMnzSJkzbtj"/>
+</div>
+<div class="p-8 space-y-4">
+<h4 class="text-xl font-bold text-on-surface">Özel Ölçü Palet</h4>
+<p class="text-sm text-on-surface-variant line-clamp-2">Lojistik ihtiyaçlarınıza uygun, dayanıklı ve ISPM-15 standartlarında palet üretimi.</p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary hover:text-amber-600 transition-colors" href="#">
+                            Detaylı Bilgi
+                            <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="bg-surface-container-lowest group overflow-hidden transition-all duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="Dış Mekan Parkesi" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A high-resolution, photorealistic image of a premium, warm amber-toned wooden deck installed in a modern architectural setting, showcasing natural wood grain and industrial precision under soft, natural daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU836-pEH6CSu1UZ8MHzE88NPiDln3kapmDNUWYZ2j_JOX7vURn37CLHOwiKzQnPSBzhleC_mCVCCOjHVOu-l1D6yLDLA6CawxasGO0v7foHPgkr_PM-Lb4kB105K-WH-5yCWJKFAVA8m3IVmGwaLTWc4sIdFPW0Q0ySsR-AkMmTJYfUHWYYGzrSokPnD9mGkhk5JFRxbajAclqMoXlfS8TSOEJ6htroVOYvtWxRVPlMug9qnpsrufqQvbvqg_9LWu0bYi5ETr7aT4"/>
+</div>
+<div class="p-8 space-y-4">
+<h4 class="text-xl font-bold text-on-surface">Dış Mekan Parkesi</h4>
+<p class="text-sm text-on-surface-variant line-clamp-2">Estetik ve dayanıklılığın buluştuğu yüksek kaliteli deck ve parke uygulamaları.</p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary hover:text-amber-600 transition-colors" href="#">
+                            Detaylı Bilgi
+                            <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+</div>
+<!-- Service 4 -->
+<div class="bg-surface-container-lowest group overflow-hidden transition-all duration-500 hover:-translate-y-2">
+<div class="aspect-[4/5] overflow-hidden">
+<img alt="Emprenye &amp; Kereste - Kaliteli endüstriyel ahşap kirişler" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A high-resolution photograph of a neat stack of high-quality industrial timber beams in a modern processing facility." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXWRWDjIwEi75mIzXJgTyDKouz8Zs10r6mBjZU_UqLMHG-6GxomQt4PO7GnlqQ94LLue_aHMlCNbbgtaGn3ZVc5YKtA3UsfiwJE2S-5Y_tXY2Wc82AgpcUmrDfQDsm0lk8mRlP31S7HVbwFpBV6fyjmR3Jz675SyJn_TCcRA4Nqx6ILRjEXVju2oXC5Wr86qlH_nWwIGYoVoW-D0MINoYBxCSJqHcfMm-JbGFVBuxJzYpJISNRdm_zFBFb7GxVagwXW67SMP76kl9p"/>
+</div>
+<div class="p-8 space-y-4">
+<h4 class="text-xl font-bold text-on-surface">Emprenye &amp; Kereste</h4>
+<p class="text-sm text-on-surface-variant line-clamp-2">Dış etkenlere karşı korumalı, uzun ömürlü yapısal kereste ve HT ısıl işlem çözümleri.</p>
+<a class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-primary hover:text-amber-600 transition-colors" href="#">
+                            Detaylı Bilgi
+                            <span class="material-symbols-outlined text-base">chevron_right</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 bg-surface" id="contact">
+<div class="max-w-7xl mx-auto px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div class="space-y-12">
+<div class="space-y-4">
+<h2 class="text-xs font-bold text-primary uppercase tracking-[0.3em]">İletişim</h2>
+<h3 class="text-4xl font-extrabold tracking-tight text-on-surface">Bize Ulaşın</h3>
+</div>
+<div class="space-y-8">
+<div class="flex items-center gap-6 group">
+<div class="w-12 h-12 bg-surface-container-high rounded flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-on-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Adres</p>
+<p class="font-medium text-on-surface">Kemalpaşa Mah. 7086 Sok. No:41 Bornova / İZMİR</p>
+</div>
+</div>
+<div class="flex items-center gap-6 group">
+<div class="w-12 h-12 bg-surface-container-high rounded flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-on-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Telefon</p>
+<p class="font-medium text-on-surface">0232 479 75 57 <span class="text-slate-400 mx-2">|</span> 0 535 526 99 26</p>
+</div>
+</div>
+<div class="flex items-center gap-6 group">
+<div class="w-12 h-12 bg-surface-container-high rounded flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-on-primary">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">Çalışma Saatleri</p>
+<p class="font-medium text-on-surface">Pzt - Cmt: 08:00 - 18:00 <span class="text-slate-400 mx-2">|</span> Pazar: Kapalı</p>
+</div>
+</div>
+<div class="flex items-center gap-6 group">
+<div class="w-12 h-12 bg-surface-container-high rounded flex items-center justify-center text-primary transition-colors group-hover:bg-primary group-hover:text-on-primary">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-1">E-posta</p>
+<p class="font-medium text-on-surface">info@celpaorman.com</p>
+</div>
+</div>
+</div>
+<!-- Mini Map Replacement Visual -->
+<div class="rounded-lg overflow-hidden h-64 grayscale contrast-125 opacity-80 border border-outline-variant/20">
+<div class="w-full h-full bg-slate-200 flex items-center justify-center relative">
+<span class="material-symbols-outlined text-4xl text-slate-400">map</span>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="bg-primary/20 p-8 rounded-full"></div>
+<div class="bg-primary p-2 rounded-full absolute animate-pulse"></div>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-10 rounded-xl shadow-sm">
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Ad Soyad</label>
+<input class="w-full bg-surface border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-colors p-4" placeholder="Adınız" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">E-posta</label>
+<input class="w-full bg-surface border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-colors p-4" placeholder="E-posta adresiniz" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Telefon</label>
+<input class="w-full bg-surface border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-colors p-4" placeholder="Telefon numaranız" type="tel"/>
+</div>
+<div class="space-y-2">
+<label class="text-xs font-bold text-on-surface-variant uppercase tracking-widest">Mesajınız</label>
+<textarea class="w-full bg-surface border-0 border-b border-outline-variant focus:ring-0 focus:border-primary transition-colors p-4 resize-none" placeholder="Size nasıl yardımcı olabiliriz?" rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-4 rounded-lg font-bold tracking-widest uppercase hover:bg-primary-fixed-dim transition-all shadow-lg shadow-primary/20" type="submit">
+                            Mesaj Gönder
+                        </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-950 dark:bg-black w-full pt-24 pb-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 max-w-7xl mx-auto px-8">
+<div class="col-span-1 md:col-span-2 space-y-8">
+<h2 class="text-xl font-bold text-white uppercase tracking-tighter">Celpa Orman Ürünleri</h2>
+<p class="text-slate-500 text-sm max-w-md leading-relaxed">
+                İzmir Bornova merkezli 5000 m² tesisimizde endüstriyel ambalaj ve özel ahşap çözümleri sunuyoruz. ISPM-15 ve HT standartlarına uyumlu, sürdürülebilirlik odaklı üretim anlayışımızla sektörün lider kuruluşu olma yolunda ilerliyoruz.
+            </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 border border-slate-800 rounded flex items-center justify-center text-slate-500 hover:text-amber-500 hover:border-amber-500 transition-all duration-300" href="#">
+<span class="material-symbols-outlined text-xl">share</span>
+</a>
+</div>
+</div>
+<div class="space-y-6">
+<h4 class="font-sans text-xs uppercase tracking-widest text-amber-500">Bağlantılar</h4>
+<ul class="space-y-4">
+<li><a class="font-sans text-xs uppercase tracking-widest text-slate-500 hover:text-amber-400 transition-colors" href="#">Kurumsal</a></li>
+<li><a class="font-sans text-xs uppercase tracking-widest text-slate-500 hover:text-amber-400 transition-colors" href="#">Sürdürülebilirlik</a></li>
+<li><a class="font-sans text-xs uppercase tracking-widest text-slate-500 hover:text-amber-400 transition-colors" href="#">KVKK</a></li>
+<li><a class="font-sans text-xs uppercase tracking-widest text-slate-500 hover:text-amber-400 transition-colors" href="#">İletişim</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="font-sans text-xs uppercase tracking-widest text-amber-500">Bülten</h4>
+<p class="text-slate-500 text-xs leading-loose">Yeni ürün ve hizmetlerimizden haberdar olmak için e-bültenimize kaydolun.</p>
+<div class="flex">
+<input class="bg-slate-900 border-0 text-white text-xs p-3 flex-grow rounded-l" placeholder="E-posta" type="email"/>
+<button class="bg-amber-700 text-white px-4 rounded-r hover:bg-amber-600 transition-colors">
+<span class="material-symbols-outlined text-sm">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 mt-24 pt-8 border-t border-slate-900 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-sans text-xs uppercase tracking-widest text-slate-500">© 2024 Celpa Orman Ürünleri. Tüm Hakları Saklıdır.</p>
+<div class="flex gap-8">
+<span class="font-sans text-[10px] uppercase tracking-widest text-slate-700">ISO 9001:2015</span>
+<span class="font-sans text-[10px] uppercase tracking-widest text-slate-700">ISPM-15 REGISTERED</span>
+<span class="font-sans text-[10px] uppercase tracking-widest text-slate-700">HT CERTIFIED</span>
+</div>
+</div>
+</footer>
+</body></html>

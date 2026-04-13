@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open /Users/demirmac/Desktop/celpa-orman-web/index.html)",
+      "Bash(curl -s \"https://v3b.fal.media/files/b/0a9612f5/nohCGXv_6KyurYmyjqfZS.jpg\" -o \"/Users/demirmac/Desktop/celpa-orman-web/emprenye-kereste.jpg\")",
+      "Bash(curl -s \"https://v3b.fal.media/files/b/0a961304/xr6Rtkg2f07aiWNqy2vJS.jpg\" -o \"/Users/demirmac/Desktop/celpa-orman-web/tesis-ic.jpg\")",
+      "Bash(curl -s \"https://v3b.fal.media/files/b/0a961314/kt62-_WTlP8tTwfZUUPN6.jpg\" -o \"/Users/demirmac/Desktop/celpa-orman-web/hero-bg.jpg\")",
+      "Bash(curl -s -X POST https://api.web3forms.com/create -H 'Content-Type: application/json' -d '{\"email\": \"celpaorman@gmail.com\"}')",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -s -X POST https://api.web3forms.com/submit -H 'Content-Type: application/json' -d '{:*)",
+      "Bash(curl -s -X POST https://fal.run/fal-ai/flux/schnell -H 'Authorization: Key 3ad5d420-0684-49e1-8e1c-73708ce59c18:857febc4e58570c4753301375f82af64' -H 'Content-Type: application/json' -d '{:*)",
+      "Bash(curl -s \"https://v3b.fal.media/files/b/0a9613ec/VUl363G4JdpEYtE6YZ-cs.jpg\" -o \"/Users/demirmac/Desktop/celpa-orman-web/hakkimizda.jpg\")",
+      "Bash(curl -s \"https://celpaorman.com/wp-content/uploads/2020/03/ahsapambalaj.jpg\" -o \"cert-ahsapambalaj.jpg\")",
+      "Bash(curl -s \"https://celpaorman.com/wp-content/uploads/2020/03/cevreizin.jpg\" -o \"cert-cevreizin.jpg\")",
+      "Bash(curl -s \"https://celpaorman.com/wp-content/uploads/2020/03/iso9001.jpg\" -o \"cert-iso9001.jpg\")",
+      "Bash(curl -s \"https://celpaorman.com/wp-content/uploads/2020/03/ohsas.jpg\" -o \"cert-ohsas.jpg\")",
+      "Bash(ls -lh cert-*.jpg)",
+      "Bash(python3 -)",
+      "Bash(curl -s \"https://celpaorman.com/wp-content/uploads/2020/02/favicon.png\" -o \"/Users/demirmac/Desktop/celpa-orman-web/logo.png\")",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)"
+    ]
+  }
+}
